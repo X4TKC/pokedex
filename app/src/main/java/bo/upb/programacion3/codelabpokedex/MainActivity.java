@@ -54,4 +54,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, PokemonListActivity.class);
         startActivity(intent);
     }
+    public void goToMyUsers(View view) {
+        Intent intent = new Intent(this, UserListActivity.class);
+        startActivity(intent);
+    }
 }
